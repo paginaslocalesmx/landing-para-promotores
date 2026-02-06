@@ -3,54 +3,185 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Gana Dinero Vendiendo Páginas Web Profesionales</title>
 
-<meta name="description" content="Únete como promotor y gana comisiones vendiendo páginas web profesionales listas en 24 horas">
+<title>Crea, Vende y Gana con Páginas Web Premium</title>
 
-<link rel="stylesheet" href="styles.css">
+<meta name="description" content="Únete como promotor digital y gana dinero vendiendo páginas web modernas, impactantes y automatizadas">
+
+<style>
+:root{
+--main:#22c55e;
+--dark:#020617;
+--glass:rgba(255,255,255,.08);
+}
+
+*{box-sizing:border-box;font-family:Segoe UI,Arial;}
+body{margin:0;background:#020617;color:white;overflow-x:hidden;}
+html{scroll-behavior:smooth;}
+
+section{padding:120px 12%;position:relative}
+
+.hero{
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+background:
+linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+url("https://images.unsplash.com/photo-1522202176988-66273c2fd55f") center/cover fixed;
+}
+
+.hero-box{
+background:var(--glass);
+backdrop-filter:blur(20px);
+padding:70px;
+border-radius:30px;
+box-shadow:0 30px 80px rgba(0,0,0,.6);
+animation:float 6s ease-in-out infinite;
+}
+
+@keyframes float{
+0%,100%{transform:translateY(0)}
+50%{transform:translateY(-12px)}
+}
+
+.hero h1{
+font-size:clamp(2.8rem,5vw,4rem);
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:1.3rem;
+opacity:.9;
+}
+
+.btn{
+display:inline-block;
+margin-top:35px;
+background:var(--main);
+color:#020617;
+padding:18px 48px;
+border-radius:18px;
+font-size:1.1rem;
+font-weight:700;
+text-decoration:none;
+box-shadow:0 15px 40px rgba(34,197,94,.5);
+transition:.3s;
+}
+
+.btn:hover{transform:scale(1.07)}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+gap:40px;
+}
+
+.card{
+background:var(--glass);
+backdrop-filter:blur(16px);
+padding:50px;
+border-radius:25px;
+box-shadow:0 25px 70px rgba(0,0,0,.5);
+transition:.4s;
+}
+
+.card:hover{transform:translateY(-12px)}
+
+.highlight{
+background:linear-gradient(135deg,#020617,#020617 40%,#022c22);
+}
+
+.big{
+font-size:3rem;
+color:var(--main);
+font-weight:800;
+}
+
+.fade{opacity:0;transform:translateY(80px);transition:1s}
+.fade.show{opacity:1;transform:translateY(0)}
+
+footer{
+padding:80px;
+text-align:center;
+opacity:.6;
+}
+
+/* CTA flotante */
+.cta-float{
+position:fixed;
+bottom:25px;
+right:25px;
+background:var(--main);
+color:#020617;
+padding:18px 28px;
+border-radius:20px;
+font-weight:700;
+text-decoration:none;
+box-shadow:0 20px 50px rgba(34,197,94,.6);
+}
+</style>
 </head>
+
 <body>
 
-<section class="hero parallax">
-  <div class="hero-content">
-    <h1>Gana dinero vendiendo páginas web</h1>
-    <p>Sin experiencia técnica — Nosotros hacemos todo</p>
-    <a class="btn-main" href="https://wa.me/521XXXXXXXXXX">Quiero ser promotor</a>
-  </div>
-</section>
-
-<section class="section reveal">
-<h2>¿Cómo funciona?</h2>
-<div class="grid">
-  <div class="card">📢 Tú consigues clientes</div>
-  <div class="card">💻 Nosotros creamos la web</div>
-  <div class="card">💰 Tú ganas comisión</div>
+<section class="hero">
+<div class="hero-box">
+<h1>Vende páginas web que impactan</h1>
+<p>Nosotros creamos. Tú vendes. Tú ganas.</p>
+<a class="btn" href="https://wa.me/521XXXXXXXXXX">Quiero ser promotor</a>
 </div>
 </section>
 
-<section class="section highlight reveal">
-<h2>Lo que ganas</h2>
-<p>Comisiones por cada página vendida + bonos por volumen</p>
+<section class="fade">
+<h2 class="big">Cómo funciona</h2>
+<div class="grid">
+<div class="card">📣 Consigues clientes locales</div>
+<div class="card">⚡ Creamos sitios premium en horas</div>
+<div class="card">💰 Ganas comisión inmediata</div>
+</div>
 </section>
 
-<section class="section reveal">
-<h2>Beneficios</h2>
-<ul>
-<li>Sin inversión</li>
-<li>Sin soporte técnico</li>
-<li>Entregas en 24h</li>
-<li>Producto fácil de vender</li>
-</ul>
+<section class="highlight fade">
+<h2 class="big">Por qué se venden fácil</h2>
+<div class="grid">
+<div class="card">✨ Diseño moderno que enamora</div>
+<div class="card">📲 WhatsApp directo</div>
+<div class="card">🚀 Sin mensualidades</div>
+<div class="card">⚡ Entrega rápida</div>
+</div>
 </section>
 
-<section class="section reveal">
-<h2>Únete hoy</h2>
-<a class="btn-main" href="https://wa.me/521XXXXXXXXXX">Hablar por WhatsApp</a>
+<section class="fade">
+<h2 class="big">Ingresos reales</h2>
+<p style="font-size:1.3rem">Cada web vendida = comisión directa.<br>
+Entre más vendas, más ganas.</p>
+</section>
+
+<section class="highlight fade">
+<h2 class="big">Empieza hoy mismo</h2>
+<a class="btn" href="https://wa.me/521XXXXXXXXXX">Hablar por WhatsApp</a>
 </section>
 
 <footer>
-<p>© Programa de Promotores Digitales</p>
+Programa de Promotores Digitales Premium © 2026
 </footer>
+
+<a class="cta-float" href="https://wa.me/521XXXXXXXXXX">Unirme ahora</a>
+
+<script>
+const fades=document.querySelectorAll(".fade");
+function reveal(){
+fades.forEach(el=>{
+if(el.getBoundingClientRect().top<window.innerHeight-100){
+el.classList.add("show");
+}
+});
+}
+window.addEventListener("scroll",reveal);
+reveal();
+</script>
 
 </body>
 </html>
