@@ -4,73 +4,59 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Crea, Vende y Gana con Páginas Web Premium</title>
+<title>FuturoDigital50+ | Gana con Páginas Web Premium</title>
 
-<meta name="description" content="Únete como promotor digital y gana dinero vendiendo páginas web modernas, impactantes y automatizadas">
+<meta name="description" content="FuturoDigital50+ impulsa personas a generar ingresos con páginas web modernas, económicas y de alto impacto">
 
 <style>
 :root{
---main:#22c55e;
---dark:#020617;
---glass:rgba(255,255,255,.08);
+--green:#6bcf9a;
+--dark:#0f2a2f;
+--soft:#eaf7f1;
+--glass:rgba(255,255,255,.12);
 }
 
-*{box-sizing:border-box;font-family:Segoe UI,Arial;}
-body{margin:0;background:#020617;color:white;overflow-x:hidden;}
-html{scroll-behavior:smooth;}
+*{box-sizing:border-box;font-family:Segoe UI,Arial}
+body{margin:0;background:linear-gradient(135deg,#0f2a2f,#081a1d);color:white}
+html{scroll-behavior:smooth}
 
-section{padding:120px 12%;position:relative}
+section{padding:110px 12%}
 
 .hero{
-height:100vh;
+min-height:100vh;
 display:flex;
 align-items:center;
 justify-content:center;
 text-align:center;
 background:
 linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
-url("https://images.unsplash.com/photo-1522202176988-66273c2fd55f") center/cover fixed;
+url("https://images.unsplash.com/photo-1556761175-4b46a572b786") center/cover fixed;
 }
 
 .hero-box{
 background:var(--glass);
 backdrop-filter:blur(20px);
-padding:70px;
-border-radius:30px;
-box-shadow:0 30px 80px rgba(0,0,0,.6);
-animation:float 6s ease-in-out infinite;
+padding:80px;
+border-radius:32px;
+box-shadow:0 30px 90px rgba(0,0,0,.7);
 }
 
-@keyframes float{
-0%,100%{transform:translateY(0)}
-50%{transform:translateY(-12px)}
-}
-
-.hero h1{
-font-size:clamp(2.8rem,5vw,4rem);
-margin-bottom:20px;
-}
-
-.hero p{
-font-size:1.3rem;
-opacity:.9;
-}
+.hero h1{font-size:clamp(3rem,5vw,4.2rem);margin-bottom:15px}
+.hero p{font-size:1.3rem;opacity:.9}
 
 .btn{
 display:inline-block;
 margin-top:35px;
-background:var(--main);
-color:#020617;
+background:var(--green);
+color:#022;
 padding:18px 48px;
-border-radius:18px;
-font-size:1.1rem;
+border-radius:20px;
 font-weight:700;
 text-decoration:none;
-box-shadow:0 15px 40px rgba(34,197,94,.5);
+box-shadow:0 15px 40px rgba(107,207,154,.6);
 transition:.3s;
 }
-
-.btn:hover{transform:scale(1.07)}
+.btn:hover{transform:scale(1.08)}
 
 .grid{
 display:grid;
@@ -80,46 +66,78 @@ gap:40px;
 
 .card{
 background:var(--glass);
-backdrop-filter:blur(16px);
 padding:50px;
-border-radius:25px;
-box-shadow:0 25px 70px rgba(0,0,0,.5);
+border-radius:26px;
+backdrop-filter:blur(14px);
+box-shadow:0 25px 70px rgba(0,0,0,.6);
 transition:.4s;
 }
-
 .card:hover{transform:translateY(-12px)}
 
 .highlight{
-background:linear-gradient(135deg,#020617,#020617 40%,#022c22);
+background:linear-gradient(135deg,#0f2a2f,#113f3a);
 }
 
 .big{
 font-size:3rem;
-color:var(--main);
+color:var(--green);
 font-weight:800;
 }
 
 .fade{opacity:0;transform:translateY(80px);transition:1s}
 .fade.show{opacity:1;transform:translateY(0)}
 
-footer{
-padding:80px;
-text-align:center;
-opacity:.6;
+footer{padding:80px;text-align:center;opacity:.6}
+
+/* CHATBOT */
+
+#chatbot{
+position:fixed;
+right:20px;
+bottom:20px;
+width:300px;
+background:white;
+color:#022;
+border-radius:20px;
+overflow:hidden;
+box-shadow:0 20px 50px rgba(0,0,0,.7);
+font-size:14px;
 }
 
-/* CTA flotante */
-.cta-float{
-position:fixed;
-bottom:25px;
-right:25px;
-background:var(--main);
-color:#020617;
-padding:18px 28px;
-border-radius:20px;
+#chat-header{
+background:var(--green);
+padding:12px;
 font-weight:700;
-text-decoration:none;
-box-shadow:0 20px 50px rgba(34,197,94,.6);
+text-align:center;
+}
+
+#chat-body{
+height:210px;
+padding:10px;
+overflow-y:auto;
+}
+
+#chat-input{
+width:100%;
+border:none;
+padding:12px;
+border-top:1px solid #ddd;
+}
+
+/* FORMULARIO */
+
+form input,form textarea,form button{
+width:100%;
+padding:14px;
+margin:10px 0;
+border-radius:10px;
+border:none;
+}
+
+form button{
+background:var(--green);
+font-weight:700;
+cursor:pointer;
 }
 </style>
 </head>
@@ -128,25 +146,25 @@ box-shadow:0 20px 50px rgba(34,197,94,.6);
 
 <section class="hero">
 <div class="hero-box">
-<h1>Vende páginas web que impactan</h1>
-<p>Nosotros creamos. Tú vendes. Tú ganas.</p>
-<a class="btn" href="https://wa.me/521XXXXXXXXXX">Quiero ser promotor</a>
+<h1>FuturoDigital50+</h1>
+<p>Construye ingresos digitales con páginas web impactantes</p>
+<a class="btn" href="https://wa.me/522225335353">Hablar por WhatsApp</a>
 </div>
 </section>
 
 <section class="fade">
 <h2 class="big">Cómo funciona</h2>
 <div class="grid">
-<div class="card">📣 Consigues clientes locales</div>
-<div class="card">⚡ Creamos sitios premium en horas</div>
+<div class="card">📣 Tú invitas negocios locales</div>
+<div class="card">⚡ Creamos páginas premium</div>
 <div class="card">💰 Ganas comisión inmediata</div>
 </div>
 </section>
 
 <section class="highlight fade">
-<h2 class="big">Por qué se venden fácil</h2>
+<h2 class="big">Por qué esto sí se vende</h2>
 <div class="grid">
-<div class="card">✨ Diseño moderno que enamora</div>
+<div class="card">✨ Diseño moderno profesional</div>
 <div class="card">📲 WhatsApp directo</div>
 <div class="card">🚀 Sin mensualidades</div>
 <div class="card">⚡ Entrega rápida</div>
@@ -154,33 +172,70 @@ box-shadow:0 20px 50px rgba(34,197,94,.6);
 </section>
 
 <section class="fade">
-<h2 class="big">Ingresos reales</h2>
-<p style="font-size:1.3rem">Cada web vendida = comisión directa.<br>
-Entre más vendas, más ganas.</p>
-</section>
+<h2 class="big">Registro para entrevista</h2>
 
-<section class="highlight fade">
-<h2 class="big">Empieza hoy mismo</h2>
-<a class="btn" href="https://wa.me/521XXXXXXXXXX">Hablar por WhatsApp</a>
+<form action="https://formspree.io/f/xxxxxx" method="POST">
+<input placeholder="Nombre completo" required>
+<input type="email" placeholder="Correo" required>
+<input placeholder="Teléfono" required>
+<textarea placeholder="¿Por qué te interesa FuturoDigital50+?"></textarea>
+<button>Solicitar información</button>
+</form>
 </section>
 
 <footer>
-Programa de Promotores Digitales Premium © 2026
+FuturoDigital50+ © 2026 | Tel: 2215579943 | WhatsApp: 2225335353
 </footer>
 
-<a class="cta-float" href="https://wa.me/521XXXXXXXXXX">Unirme ahora</a>
+<!-- CHATBOT INTELIGENTE -->
+<div id="chatbot">
+<div id="chat-header">Asistente FuturoDigital50+</div>
+<div id="chat-body"></div>
+<input id="chat-input" placeholder="Escribe 1, 2, 3 o 4...">
+</div>
 
 <script>
 const fades=document.querySelectorAll(".fade");
 function reveal(){
 fades.forEach(el=>{
-if(el.getBoundingClientRect().top<window.innerHeight-100){
+if(el.getBoundingClientRect().top<window.innerHeight-120){
 el.classList.add("show");
-}
-});
+}});
 }
 window.addEventListener("scroll",reveal);
 reveal();
+
+/* CHATBOT */
+
+const body=document.getElementById("chat-body");
+const input=document.getElementById("chat-input");
+
+function menu(){
+body.innerHTML+=`
+<div>🤖 Hola 👋 Soy tu asistente de FuturoDigital50+</div>
+<div>1️⃣ ¿Cómo gano dinero?</div>
+<div>2️⃣ ¿Necesito experiencia?</div>
+<div>3️⃣ ¿Qué ofrecemos a clientes?</div>
+<div>4️⃣ Quiero registrarme</div>
+`;
+}
+menu();
+
+input.addEventListener("keypress",e=>{
+if(e.key==="Enter"){
+let msg=input.value.trim();
+body.innerHTML+=`<div>👤 ${msg}</div>`;
+
+if(msg==="1") body.innerHTML+=`<div>🤖 Ganas comisión por cada página web vendida</div>`;
+else if(msg==="2") body.innerHTML+=`<div>🤖 No, nosotros hacemos toda la parte técnica</div>`;
+else if(msg==="3") body.innerHTML+=`<div>🤖 Páginas premium con WhatsApp, catálogo y diseño moderno</div>`;
+else if(msg==="4") body.innerHTML+=`<div>🤖 Completa el formulario de abajo o escríbenos por WhatsApp</div>`;
+else body.innerHTML+=`<div>🤖 Elige 1,2,3 o 4</div>`;
+
+input.value="";
+body.scrollTop=body.scrollHeight;
+}
+});
 </script>
 
 </body>
